@@ -53,7 +53,7 @@ static NSString * const PhascogalePlayerDockIconPreferenceKey = @"YES";
 - (NSString *)retrieveBitcoinPrice
 {
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setURL:[NSURL URLWithString:@"https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT"]];
+    [request setURL:[NSURL URLWithString:@"https://api.binance.us/api/v3/ticker/price?symbol=BTCUSDT"]];
 
     [request setHTTPMethod:@"GET"];
 
